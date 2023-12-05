@@ -1,0 +1,10 @@
+任务
+2023.1.10
+文件：rowdata_sequence (0)
+任务：使用python将文件内的所有misc_feature特征位置提取出来，并用csv或者txt文件保存。
+
+需要提取的信息：misc_feature特征信息，
+如下：表示在全基因组水平上 第242bp位置是C-to-U RNA编辑位点。
+提取所有：misc_feature特征且为C-to-U RNA editting 的信息。
+请注意不是所有misc_feature都是编辑位点，比如以下这种信息就不是，不需要。
+最终需要的就是一个list，比如: [242,254,443,452,515.......]
